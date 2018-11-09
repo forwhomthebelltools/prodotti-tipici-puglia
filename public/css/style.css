@@ -1,0 +1,206 @@
+body {
+	background: url("https://www.laterradipuglia.it/wp-content/themes/sharp-VER092/framework/images/patterns/subtle-2.jpg");
+}
+
+#main-header {
+	background-color: white;
+}
+
+#jumbotron-contact {
+	background-color: white;
+}
+
+#hr-contact {
+	width: 30%;
+	border: 0;
+	border-color: #000;
+	border-width: 3px; 
+	height: 1px; 
+	background: #333; 
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	  
+}
+
+#insert-comment, #show-comment {
+	margin: 0 auto;
+}
+
+section {
+	margin-bottom: 30px;
+	border-bottom: 1px dotted #efefef;
+	padding-bottom: 15px;
+}
+
+footer {
+	background-color: black;
+	color:white;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+footer .row > div {
+	border-right: 1px dotted #aaa;
+}
+
+.row .container {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.row .container div div {
+	margin-bottom: 13px;
+}
+
+.img-aside {
+	position: relative;
+}
+
+.img-fluid {
+	position: relative; 
+	z-index: 1;
+}
+
+.category-label {
+	position: absolute; 
+	z-index: 2; 
+	top: 10px; 
+	left: 10px; 
+	color: #fff; 
+	background: #f48d3e; 
+	font: bold 13px verdana, sans-serif; 
+	text-transform: uppercase; 
+	padding: 3px 10px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: black;
+}
+
+.push {
+	margin-top: 60px;
+	background-color: white;
+}
+
+#social-wall, #events-wall {
+	flex-direction: column; 
+	flex-wrap: nowrap; 
+	justify-content: flex-start;
+}
+
+#second-navbar .nav-link {
+	padding-top: 3px;
+    padding-right: 1rem;
+    padding-bottom: 3px;
+    padding-left: 1rem;
+}
+
+#second-navbar .navbar {
+	padding-top: 5px;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    padding-left: 1rem;
+}
+
+#second-navbar .bg-light {
+	background-color: #f8f9fa !important;
+	border: 1px dotted #efefef !important;
+}
+
+#navbarSupportedContent .btn-primary, .btn-secondary {
+	margin-right: 25px;
+}
+
+#social-column .card {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#hidden-menu {
+	display: none;
+}
+
+.catname {
+	text-align: center;
+    background: url("https://www.laterradipuglia.it/wp-content/themes/sharp-VER092/images/bg-catname.png") repeat-x center center;
+}
+
+.catname a {
+    width: auto;
+    background: #fff;
+    padding: 0 10px;
+    color: #222;
+    font: bold 20px 'Open Sans', Arial, sans-serif;
+    letter-spacing: -1px;
+}
+
+
+article p {
+	margin-bottom: 34px;
+}
+
+@media screen and (max-width: 812px) {
+	.dropdown-toggle::after {
+    	display: none;
+	}
+
+	.dropdown-divider {
+		display: none;
+	}
+
+	.btn-primary, .btn-secondary, .btn-warning {
+		display: none;
+	}
+
+  	.navbar-nav .dropdown-menu {
+    	display:block;
+    	position: static;
+    	float: none;
+    	width: auto;
+    	margin-top: 0;
+    	background-color: transparent;
+    	border: 0;
+    	-webkit-box-shadow: none;
+    	box-shadow: none;
+  	}
+
+  	#hidden-menu {
+  		display: block;
+  	}
+
+  	#hidden-menu li {
+  		padding-top: 3px;
+    	padding-right: 1rem;
+    	padding-bottom: 3px;
+    	padding-left: 0;
+  	}
+
+ 	
+}
+
+@media screen and (max-width: 812px) {
+
+	#social-wall {
+		flex-direction: row; 
+		flex-wrap: nowrap; 
+		justify-content: space-between;
+	}
+
+	#social-wall div {
+		display: inline-block;
+	}
+
+	#events-wall {
+		flex-direction: row; 
+		flex-wrap: nowrap; 
+		justify-content: flex-start;
+	}
+
+	#events-wall div {
+		display: inline-block;
+	}
+
+
+
+
+
+}
